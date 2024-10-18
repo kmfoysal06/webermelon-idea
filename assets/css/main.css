@@ -75,12 +75,6 @@ header {
     color: #fff;
     text-decoration: none;
 }
-
-
-
-nav{
-
-}
 p{
 	font-family: 'Inter';
 }
@@ -161,7 +155,8 @@ p{
 }
 .image-gallery {
     display: grid;
-    grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    align-items: center;
     gap: 10px;
 }
 
