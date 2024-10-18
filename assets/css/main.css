@@ -1,0 +1,450 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Urbanist';
+    src: url('../fonts/Urbanist-Regular.woff2') format('woff2'),
+        url('../fonts/Urbanist-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+	width: 100%;
+	min-height: 100vh;
+}
+header,main,footer{
+	width: 75%;
+	margin: auto;
+	padding: 20px 2px;
+}
+section{
+	margin: 50px auto;
+}
+header, main, footer {
+    width: 75%;
+    margin: auto;
+    padding: 20px 2px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nav-menu ul {
+    font-family: 'Inter';
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu ul a {
+    text-decoration: none;
+    color: #101010;
+    font-size: 1rem;
+}
+.btn {
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+nav{
+
+}
+p{
+	font-family: 'Inter';
+}
+
+.short-about {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 0 0 15px 0;
+    max-width: 1200px; 
+}
+
+
+.short-about h1 {
+    font-family: 'Inter';
+    font-size: 2.2em;
+    font-weight: 600;
+    letter-spacing: -2%;
+    line-height: 1.3em;
+}
+
+
+.short-about .information-text {
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 1.6em;
+}
+
+
+.call-to-action-short-about .portfolio,
+.call-to-action-short-about .get-start {
+    font-family: 'Inter';
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    width: max-content;
+    margin: auto;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.call-to-action-short-about .get-start {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+
+
+.short-about p.positive-text {
+    padding: 8px 16px;
+    background: #92F4AE;
+    color: #000;
+    width: max-content;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center; 
+    font-size: 1rem; 
+}
+
+
+
+
+.short-about h1{
+	font-family: 'Inter';
+	font-size: 2.2em;
+	font-weight: 600;
+	letter-spacing: -2%;
+	line-height: 45px;
+}
+.short-about .information-text{
+	font-size: 16px;
+	color: #4c4c4c;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 1fr)); 
+    gap: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+
+.clients-information{
+	display: flex;
+	justify-content: space-between;
+}
+.clients-information div{
+	font-family: 'Inter';	
+	text-align: center;
+}
+.clients-information div h2{
+	font-size: 2.2em;
+}
+.clients-information p{
+	font-size: 14px;
+	color: #595959;
+}
+.clients-information div h2 span{
+	color: #00C663;
+}
+.company-progress{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin: 50px auto;
+}
+
+.quote {
+    margin: 0 auto;
+    max-width: 900px; 
+    padding: 20px;
+    text-align: center;
+}
+
+
+.quote blockquote {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.2em; 
+    color: #737373;
+    margin: 0 30px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1.4em; 
+}
+
+.quote blockquote span.dark-text {
+    color: #000;
+    font-weight: 400; 
+}
+
+
+.quote-by {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.quote-by h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em; 
+    font-weight: 500;
+}
+
+.quote-by p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #181732;
+    margin: 0;
+}
+
+
+.quote-by img.quote-icon {
+    display: block;
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+
+.company-progress .clients {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px, 1fr)); 
+    gap: 20px; 
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.company-progress .clients img {
+    width: 100%;
+    height: auto;
+    max-width: 150px; 
+    object-fit: contain; 
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .site-logo img {
+        width: 140px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .short-about h1 {
+        font-size: 2em; 
+    }
+
+    .short-about .information-text {
+        font-size: 15px; 
+    }
+
+    .call-to-action-short-about .portfolio,
+    .call-to-action-short-about .get-start {
+        font-size: 16px; 
+        padding: 8px 18px; 
+    }
+     .quote blockquote {
+        font-size: 2em; 
+        margin: 0 20px;
+    }
+
+    .quote-by h4 {
+        font-size: 1.4em; 
+    }
+
+    .quote-by p {
+        font-size: 0.9em; 
+    }
+    .company-progress .clients {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .site-logo img {
+        width: 120px;
+    }
+
+    .nav-menu ul {
+        gap: 12px;
+    }
+
+    .btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+     .short-about {
+        padding: 0 15px; 
+    }
+
+    .short-about h1 {
+        font-size: 1.8em; 
+    }
+
+    .short-about .information-text {
+        font-size: 14px; 
+    }
+
+    .call-to-action-short-about .portfolio,
+    .call-to-action-short-about .get-start {
+        font-size: 14px; 
+        padding: 8px 16px;
+    }
+    .short-about p.positive-text {
+        padding: 6px 12px; 
+        font-size: 0.9rem; 
+    }
+    .company-progress .clients {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .nav-menu ul {
+        gap: 8px; 
+    }
+
+    .btn {
+        padding: 5px 10px;
+        font-size: 10px; 
+    }
+    .company-progress .clients {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .quote {
+        padding: 10px; 
+    }
+
+    .quote blockquote {
+        font-size: 1.8em; 
+        margin: 0 15px;
+    }
+
+    .quote-by h4 {
+        font-size: 1.3em; 
+    }
+
+    .quote-by p {
+        font-size: 0.85em; 
+    }
+
+    .quote-by img.quote-icon {
+        width: 40px; 
+    }
+    .short-about h1 {
+        font-size: 1.5em; 
+    }
+
+    .short-about .information-text {
+        font-size: 13px; 
+        line-height: 1.5em; 
+    }
+
+    .call-to-action-short-about .portfolio,
+    .call-to-action-short-about .get-start {
+        font-size: 12px; 
+        padding: 6px 12px; 
+    }
+    .short-about p.positive-text {
+        padding: 4px 8px; 
+        font-size: 0.8rem; 
+        width: 100%; 
+        max-width: 90%; 
+    }
+    .image-gallery {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+    .quote blockquote {
+        font-size: 1.5em; 
+        margin: 0 10px;
+    }
+
+    .quote-by h4 {
+        font-size: 1.2em; 
+    }
+
+    .quote-by p {
+        font-size: 0.8em; 
+    }
+
+    .quote-by img.quote-icon {
+        width: 35px; 
+    }
+}
