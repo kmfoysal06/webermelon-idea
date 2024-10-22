@@ -433,23 +433,6 @@ section.our-services{
     font-size: 0.825rem;
     padding: 9px 18px;
 }
-
-/* Lines */
-.site-logo, header, .section-inner, nav.header-nav, .call-to-action-header, .image-gallery, .image-gallery img, .web-and-app, .web-dev, .case-study-single{
-    border: 1px solid #DDECFF;
-}
-
-/* Lines in Side */
-.site-logo{
-    /* border-left: none; */
-    /* border-right: none; */
-}
-
-/* Border Top to Bottom */
-.site-logo, header, .section-inner, nav.header-nav, .call-to-action-header{
-    border-top: none;
-    border-bottom: none;
-}
 /* Language Slider */
 .languages-slider{
     font-family: 'Inter Display';
@@ -472,6 +455,51 @@ section.our-services{
     height: 10px;
     background: #41FF9E;
     border-radius: 50%;
+}
+/* Testimonials */
+.testimonials{
+    background: #FFFFFF;
+    width: 75%;
+    margin: auto;
+    padding: 7.5rem 0;
+}
+.testimonial-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.testimonial-section-header{
+    text-align: center;
+}
+.testimonial-section-header h2{
+    font-family: "Inter Display";
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.testimonial-section-header p{
+    font-family: 'Inter Display';
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    color: #4C4C4C;
+}
+
+/* Lines */
+.site-logo, header, .section-inner, nav.header-nav, .call-to-action-header, .image-gallery, .image-gallery img, .web-and-app, .web-dev, .case-study-single{
+    border: 1px solid #DDECFF;
+}
+
+/* Lines in Side */
+.site-logo{
+    /* border-left: none; */
+    /* border-right: none; */
+}
+
+/* Border Top to Bottom */
+.site-logo, header, .section-inner, nav.header-nav, .call-to-action-header{
+    border-top: none;
+    border-bottom: none;
 }
 
 
