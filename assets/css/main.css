@@ -484,6 +484,68 @@ section.our-services{
     letter-spacing: 0;
     color: #4C4C4C;
 }
+.testimonials-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.875rem;
+}
+.single-testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.125rem;
+    background: linear-gradient(45deg, #F9FEFD, transparent);
+    padding: 3rem;
+    border-radius: 16px;
+}
+.testimonial-user-meta{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.testimonial-user-meta-text h4{
+    font-family: "Inter Display";
+    font-weight: 500;
+    font-size: 1.36rem;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+.testimonial-user-meta-text p{
+    font-family: "Inter Display";
+    font-size: 1.02rem;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: #000;
+}
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-content p{
+    font-family: "Inter Display";
+    font-size: 1.125rem;
+    line-height: 160%;
+    color: #5E5E5E;
+}
+.testimonial-cta{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.testimonial-cta a{
+    font-family: "Inter Display";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+}
 
 /* Lines */
 .site-logo, header, .section-inner, nav.header-nav, .call-to-action-header, .image-gallery, .image-gallery img, .web-and-app, .web-dev, .case-study-single{
