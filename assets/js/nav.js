@@ -1,7 +1,7 @@
-const navIcon = document.querySelector(".nav-icon"),
-navMenu = document.querySelector('.header-nav');
+const navIcon = document.querySelector(".nav-icon-container"),
+navMenu = document.querySelector('.header-nav ul');
 navIcon.addEventListener("click",function(e){
     e.preventDefault();
-    const nav = e.target.parentNode.querySelector('nav');
-    nav.classList.toggle('show');
+    const ul = (e.target.parentNode.querySelector('ul') === null) ? e.target.parentNode.parentNode.querySelector('ul') : e.target.parentNode.querySelector('ul');
+    ul.classList.toggle('show');    
 })
