@@ -5,10 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Webermelon Idea</title>
 	<link rel="stylesheet" href="assets/css/main.css">
+	<!-- Uncomment to Not Visualize The Lines -->
+	<link rel="stylesheet" href="assets/css/lines.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </head>
 <body>
 	<header>
 		<div class="header-inner">
+			<span class="line-1"></span>
+			<span class="line-2"></span>
+			<span class="line-3"></span>
+			<span class="line-4"></span>
 			<div class="nav-menu">
 			<div class="site-logo"><a href="#"><img src="assets/img/logo.png" alt="" width="165px"></a></div>
 			<nav class="header-nav">
@@ -32,12 +39,16 @@
 	<main>
 		<section id="hero-section" class="hero-section">
 			<div class="section-inner">
+				<span class="line-1"></span>
+				<span class="line-2"></span>
+				<span class="line-3"></span>
+				<span class="line-4"></span>
 				<div class="short-about">
 					<p class="positive-text">
 						Offshore web and software development company
 					</p>
 					<h1>
-						Hire skilled developers <br>to build your Website & Apps
+						Hire skilled developers to build your Website & Apps
 					</h1>
 					<p class="information-text">
 						Webermelon is a Website and Software Development Company. We help startups and businesses <br>set up remote teams and build their web or mobile application and websites.
@@ -86,20 +97,37 @@
 					</div>
 				</div>
 				<div class="clients">
-					<img src="assets/img/creazygraph.png" alt="creazygraph" width="150px">
-					<img src="assets/img/byteeat.png" alt="byteeat" width="150px">
-					<img src="assets/img/droboai.png" alt="droboai" width="150px">
-					<img src="assets/img/tent.png" alt="tent" width="150px">
-					<img src="assets/img/coople.png" alt="coople" width="150px">
+					<div class="single-client">
+						<img src="assets/img/creazygraph.png" alt="creazygraph" width="150px">
+					</div>
+					<div class="single-client">
+						<img src="assets/img/byteeat.png" alt="byteeat" width="150px">
+					</div>
+					<div class="single-client">
+						<img src="assets/img/droboai.png" alt="droboai" width="150px">
+					</div>
+					<div class="single-client">
+						<img src="assets/img/tent.png" alt="tent" width="150px">
+					</div>
+					<div class="single-client">
+						<img src="assets/img/coople.png" alt="coople" width="150px">
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<section class="our-services" id="our-services">
-			<div class="our-services-inner">
+			<div class="our-services-inner">				
 				<div class="our-services-info">
 					<div class="our-services-contents">
 						<div class="our-services-contents-text">
+
+						<span class="line-1"></span>
+						<span class="line-2"></span>
+						<span class="line-3"></span>
+						<span class="line-4"></span>
+						<span class="line-5"></span>
+						<span class="line-6"></span>
 							<h2>Our Services</h2>
 							<p>From designs to marketing, Webermelon serves all digital services your business needs to start and be succeeded</p>
 							<div class="call-to-action-services">
@@ -121,24 +149,24 @@
 						</div>
 					</div>
 				</div>
-				<div class="web-and-app">
-					<div class="web-and-app-text">
-						<h2>Web & Mobile Apps Development</h2>
-						<p>Webermelon is a Website and Software Development Company. We help startups and businesses set up remote teams and build their SaaS, PaaS, apps, and websites.</p>
+					<div class="web-and-app">
+						<div class="web-and-app-text">
+							<h2>Web & Mobile Apps Development</h2>
+							<p>Webermelon is a Website and Software Development Company. We help startups and businesses set up remote teams and build their SaaS, PaaS, apps, and websites.</p>
+						</div>
+						<div class="web-and-app-image">
+							<img src="assets/img/web-app-banner.png" alt="Web App Banner">
+						</div>
 					</div>
-					<div class="web-and-app-image">
-						<img src="assets/img/web-app-banner.png" alt="Web App Banner">
+					<div class="web-dev">
+						<div class="web-design-text">
+							<h2>Web Design and Development</h2>
+							<p>Webermelon is a Website and Software Development Company. We help startups and businesses set up remote teams and build their SaaS, PaaS, apps, and websites.</p>
+						</div>
+						<div class="web-design-image">
+							<img src="assets/img/web-design-banner.png" alt="Web Design Banner">
+						</div>
 					</div>
-				</div>
-				<div class="web-dev">
-					<div class="web-design-text">
-						<h2>Web Design and Development</h2>
-						<p>Webermelon is a Website and Software Development Company. We help startups and businesses set up remote teams and build their SaaS, PaaS, apps, and websites.</p>
-					</div>
-					<div class="web-design-image">
-						<img src="assets/img/web-design-banner.png" alt="Web Design Banner">
-					</div>
-				</div>
 			</div>
 		</section>
 
@@ -268,7 +296,8 @@
 				<div class="dot"></div>
 			</div>
 		</section>
-
+		<!-- Will Do Letter -->
+		<!--
 		<section class="testimonials" id="testimonials">
 			<div class="testimonial-inner">
 				<div class="testimonial-section-header">
@@ -276,79 +305,164 @@
 					<p>From designs to marketing, Webermelon serves all digital services
 						your business needs to start and be succeeded</p>
 				</div>
-				<div class="testimonials-container">
-					<div class="testimonials-inner">
-						<div class="single-testimonial">
+				<div class="testimonials-container swiper">
+					<div class="testimonials-wrapper swiper-wrapper">
+					  <div class="testimonials-inner">
+						<div class="swiper-slide">
+						  <div class="single-testimonial">
 							<div class="testimonial-user-meta">
-								<img src="assets/img/testimonial-user-image.png" alt="Testimonial User Image">
-								<div class="testimonial-user-meta-text">
-									<h4>James Pattinson</h4>
-									<p>CEO - StudioTEM</p>
-									<div class="testimonial-stars">
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-									</div>
+							  <img src="assets/img/testimonial-user-image.png" alt="Testimonial User Image">
+							  <div class="testimonial-user-meta-text">
+								<h4>James Pattinson</h4>
+								<p>CEO - StudioTEM</p>
+								<div class="testimonial-stars">
+								  <svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  <svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  <svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  <svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  <svg width="24px" height="24px"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
 								</div>
+							  </div>
 							</div>
 							<div class="testimonial-content">
-								<p>
-									We have worked together during 2 full weeks in order tomigrate my ecommerce website towards a new platform.Webermelon also custom coded a full secure platform for my clients in order to improve customer experience after their orders. This was a really difficult mission that he managed successfully !
-								</p>
-								<button class="testimonial-cta">
-									<a href="#">View review on facebook <img src="assets/img/arrow-icon.png" alt=""> </a>
-								</button>
+							  <p>
+								We have worked together during 2 full weeks in order tomigrate my ecommerce website towards a new platform.Webermelon also custom coded a full secure platform for my clients in order to improve customer experience after their orders. This was a really difficult mission that he managed successfully !
+							  </p>
+							  <button class="testimonial-cta">
+								<a href="#">View review on facebook <img src="assets/img/arrow-icon.png" alt=""> </a>
+							  </button>
 							</div>
+						  </div>
 						</div>
-						<div class="single-testimonial">
-							<div class="testimonial-user-meta">
+
+						<div class="swiper-slide">
+							<div class="single-testimonial">
+							  <div class="testimonial-user-meta">
 								<img src="assets/img/testimonial-user-image.png" alt="Testimonial User Image">
 								<div class="testimonial-user-meta-text">
-									<h4>James Pattinson</h4>
-									<p>CEO - StudioTEM</p>
-									<div class="testimonial-stars">
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-										<svg width="24px" height="24px"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
-									</div>
+								  <h4>James Pattinson</h4>
+								  <p>CEO - StudioTEM</p>
+								  <div class="testimonial-stars">
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  </div>
 								</div>
-							</div>
-							<div class="testimonial-content">
+							  </div>
+							  <div class="testimonial-content">
 								<p>
-									We have worked together during 2 full weeks in order tomigrate my ecommerce website towards a new platform.Webermelon also custom coded a full secure platform for my clients in order to improve customer experience after their orders. This was a really difficult mission that he managed successfully !
+								  We have worked together during 2 full weeks in order tomigrate my ecommerce website towards a new platform.Webermelon also custom coded a full secure platform for my clients in order to improve customer experience after their orders. This was a really difficult mission that he managed successfully !
 								</p>
 								<button class="testimonial-cta">
-									<a href="#">View review on facebook <img src="assets/img/arrow-icon.png" alt=""> </a>
+								  <a href="#">View review on facebook <img src="assets/img/arrow-icon.png" alt=""> </a>
 								</button>
+							  </div>
 							</div>
-						</div>
+						  </div>
+
+						  <div class="swiper-slide">
+							<div class="single-testimonial">
+							  <div class="testimonial-user-meta">
+								<img src="assets/img/testimonial-user-image.png" alt="Testimonial User Image">
+								<div class="testimonial-user-meta-text">
+								  <h4>James Pattinson</h4>
+								  <p>CEO - StudioTEM</p>
+								  <div class="testimonial-stars">
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  </div>
+								</div>
+							  </div>
+							  <div class="testimonial-content">
+								<p>
+								  We have worked together during 2 full weeks in order tomigrate my ecommerce website towards a new platform.Webermelon also custom coded a full secure platform for my clients in order to improve customer experience after their orders. This was a really difficult mission that he managed successfully !
+								</p>
+								<button class="testimonial-cta">
+								  <a href="#">View review on facebook <img src="assets/img/arrow-icon.png" alt=""> </a>
+								</button>
+							  </div>
+							</div>
+						  </div>
+
+						  <div class="swiper-slide">
+							<div class="single-testimonial">
+							  <div class="testimonial-user-meta">
+								<img src="assets/img/testimonial-user-image.png" alt="Testimonial User Image">
+								<div class="testimonial-user-meta-text">
+								  <h4>James Pattinson</h4>
+								  <p>CEO - StudioTEM</p>
+								  <div class="testimonial-stars">
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  </div>
+								</div>
+							  </div>
+							  <div class="testimonial-content">
+								<p>
+								  We have worked together during 2 full weeks in order tomigrate my ecommerce website towards a new platform.Webermelon also custom coded a full secure platform for my clients in order to improve customer experience after their orders. This was a really difficult mission that he managed successfully !
+								</p>
+								<button class="testimonial-cta">
+								  <a href="#">View review on facebook <img src="assets/img/arrow-icon.png" alt=""> </a>
+								</button>
+							  </div>
+							</div>
+						  </div>
+
+						  <div class="swiper-slide">
+							<div class="single-testimonial">
+							  <div class="testimonial-user-meta">
+								<img src="assets/img/testimonial-user-image.png" alt="Testimonial User Image">
+								<div class="testimonial-user-meta-text">
+								  <h4>James Pattinson</h4>
+								  <p>CEO - StudioTEM</p>
+								  <div class="testimonial-stars">
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px" class="testimonial-star-active"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+									<svg width="24px" height="24px"><use class="testimonial-star-icon" href="#testimonial-star-icon"></use></svg>
+								  </div>
+								</div>
+							  </div>
+							  <div class="testimonial-content">
+								<p>
+								  We have worked together during 2 full weeks in order tomigrate my ecommerce website towards a new platform.Webermelon also custom coded a full secure platform for my clients in order to improve customer experience after their orders. This was a really difficult mission that he managed successfully !
+								</p>
+								<button class="testimonial-cta">
+								  <a href="#">View review on facebook <img src="assets/img/arrow-icon.png" alt=""> </a>
+								</button>
+							  </div>
+							</div>
+						  </div>
+					  </div>
 					</div>
-					<div class="testimonial-slider-dots">
-						<div class="dot active"></div>
-						<div class="dot"></div>
-						<div class="dot"></div>
-					</div>
-					
-				</div>
+					<div class="swiper-pagination"></div>
 			</div>
 		</section>
+		-->
 
 		<section class="get-started-card">
 			<div class="get-started-card-inner">
 				<div class="get-started-card-text">
-					<h2>
-						Accelerate Your Software Development Potential with Us
-					</h2>
-					<p>
-						With our innovative solutions and dedicated expertise, success is a guaranteed outcome. Let's accelerate together towards your goals and beyond.
-					</p>
-					<button class="get-started-project-cta">
-						<a href="#">Start your project <img src="assets/img/arrow-icon.png" alt="arrow icon"></a>
-					</button>
+					<div class="get-started-card-text-inner">
+						<h2>
+							Accelerate Your Software Development Potential with Us
+						</h2>
+						<p>
+							With our innovative solutions and dedicated expertise, success is a guaranteed outcome. Let's accelerate together towards your goals and beyond.
+						</p>
+						<button class="get-started-project-cta">
+							<a href="#">Start your project <img src="assets/img/arrow-icon.png" alt="arrow icon"></a>
+						</button>
+					</div>
 				</div>
 				<div class="get-started-card-image">
 					<img src="assets/img/get-started-section-image.png" alt="">
@@ -417,5 +531,7 @@
 		</svg>
 	</div>
 	<script src="assets/js/nav.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="assets/js/swipper-init.js"></script>
 </body>
 </html>
