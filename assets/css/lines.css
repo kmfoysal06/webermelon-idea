@@ -1,0 +1,78 @@
+:root{
+    --line-color:linear-gradient(90deg, #DDECFF, #fff);
+}
+.header-inner{
+    position: relative;
+}
+.section-inner{
+    position: relative;
+}
+header .line-1, .section-inner .line-1{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: var(--line-color);
+    top: 0;
+    left: calc((100% / 3) + 1px);
+}
+header .line-2, .section-inner .line-2{
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: var(--line-color);
+    top: 0;
+    left: calc((100% / 3) - 9px);
+}
+
+header .line-3, .section-inner .line-3 {
+    width: 2px;
+    height: 100%;
+    background: var(--line-color);
+    position: absolute;
+    top: 0;
+    left: calc((100%/1.5) + 2px);
+}
+header .line-4, .section-inner .line-4 {
+    width: 2px;
+    height: 100%;
+    background: var(--line-color);
+    position: absolute;
+    top: 0;
+    left: calc((100%/1.5) - 8px);
+}
+.our-services-inner {
+    position: relative;
+}
+
+.our-services-inner span.line-1 {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: calc((100%/3) + 10px);
+}
+.our-services-inner span.line-2 {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: calc((100%/1.5) - 12px);
+}
+.our-services-inner span.line-3 {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: calc((100%/1.5) + 24px);
+}
+.our-services-inner span.line-4 {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: calc(100%);
+}
